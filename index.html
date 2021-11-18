@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="special one.css">
+</head>
+<body>
+<video id="vid" height="550">
+ <source type="video/mp4" src="https://github.com/Asadek14/SophiaOP.com/blob/main/flower.mov" loop>
+</video>
+<script>
+let first = true;
+document.getElementById('vid').addEventListener('click', (e) => {
+  if (first) {
+    e.target.play();
+  }
+  first = true;
+});
+</script>
+</body>
+</html>
