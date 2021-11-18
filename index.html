@@ -11,7 +11,7 @@
 let first = true;
 document.getElementById('vid').addEventListener('click', (e) => {
   if (first) {
-    e.play();
+    e.target.play();
   }
   first = true;
 });
